@@ -48,9 +48,7 @@ function PokeDex() {
   React.useEffect(() => {
     formRef.current.addEventListener('submit', handleSubmit);
     renderPokemon("bulbasaur");
-    return () => {
-      formRef.current.removeEventListener('submit', handleSubmit);
-    };
+   
   }, []);
   
  
