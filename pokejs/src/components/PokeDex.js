@@ -49,7 +49,7 @@ function PokeDex() {
     formRef.current.addEventListener('submit', handleSubmit);
     renderPokemon("bulbasaur");
    
-  }, []);
+  }, );
   
  
 
