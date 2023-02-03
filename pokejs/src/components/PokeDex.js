@@ -56,7 +56,9 @@ function PokeDex() {
  
 
   return (
+
     <div className="main-dex">
+
       <img ref={pokemonImageRef} className="pokemon-image" src="#" alt="/" />
 
       <h1 className="pokemon-data">

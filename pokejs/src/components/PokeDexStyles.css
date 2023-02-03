@@ -65,3 +65,10 @@ body {
     border-radius: 5px;
     color: #000407;
 }
+
+.logo{
+    color: white;
+    font-size: clamp(20px, 19vw, 70px);
+    padding: 40px;
+    font-weight: bold;
+  }
